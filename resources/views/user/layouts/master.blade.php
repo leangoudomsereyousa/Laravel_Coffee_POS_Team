@@ -24,17 +24,17 @@
 
 <body>
 
-    <header class="text-center py-3" style="background-color: #42280e;">
+    <header class="text-center py-3" style="background-color: #d66d04ff;">
         <div>
-            <h1 class="fw-bold text-white mb-0">MAY BROWN</h1>
-            <h1 class="text-white">Coffee</h1>
+            <h1 class="fw-bold text-white mb-0">PHP COFFEE</h1>
+            <h1 class="text-white">Shop</h1>
         </div>
         <div class="d-flex align-items-center justify-content-center">
-            <img src="{{ asset('user/images/logo.jpg') }}" height="70" class="rounded-circle" alt="Coffee Shop Logo"
+            <img src="{{ asset('user/images/logo.png') }}" height="50" class="rounded-circle" alt="Coffee Shop Logo"
                 style="margin-right: 15px;">
         </div>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #42280e;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #d66d04ff;">
         <div class="container">
             <!-- Toggler -->
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
@@ -43,7 +43,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
+                <ul class="navbar-nav mx-10">
                     <li class="nav-item">
                         <a class="nav-link text-white" href="{{ url('user/home') }}">Home</a>
                     </li>
